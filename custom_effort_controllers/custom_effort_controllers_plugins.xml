@@ -1,0 +1,21 @@
+<library path="lib/libcustom_effort_controllers">
+
+  <class name="custom_effort_controllers/CustomJointPositionController" type="custom_effort_controllers::CustomJointPositionController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The CustomJointPositionController tracks position commands. It expects a EffortJointInterface type of hardware interface.
+    </description>
+  </class>
+
+  <class name="custom_effort_controllers/CustomJointVelocityController" type="custom_effort_controllers::CustomJointVelocityController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The CustomJointVelocityController tracks velocity commands. It expects a EffortJointInterface type of hardware interface.
+    </description>
+  </class>
+
+  <class name="custom_effort_controllers/CustomJointEffortController" type="custom_effort_controllers::CustomJointEffortController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The JointEffortController tracks effort commands. It expects a EffortJointInterface type of hardware interface.
+    </description>
+  </class>
+
+</library>
